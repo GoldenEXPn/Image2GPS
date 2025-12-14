@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+huggingface_token
+dataset/
+raw_videos/
+set-0001.json
