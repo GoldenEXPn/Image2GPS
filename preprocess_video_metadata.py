@@ -120,7 +120,7 @@ def process_dataset():
 
             if frame_count % frame_interval == 0:
                 # Apply rotation
-                frame = rotate_frame(frame, rotation)
+                # frame = rotate_frame(frame, rotation)
                 # Filename format: IMG_08XX_frame001.jpg
                 image_filename = f"{video_id}_frame{saved_count:03d}.jpg"
                 image_full_path = os.path.join(OUTPUT_IMAGE_FOLDER, image_filename)
